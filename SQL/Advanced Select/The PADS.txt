@@ -6,3 +6,4 @@ from occupations
 group by occupation
 ) as c
 order by c.cnt
+;
