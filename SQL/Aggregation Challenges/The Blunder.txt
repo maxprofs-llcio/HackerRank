@@ -1,0 +1,1 @@
+select ceiling(avg(salary) - avg(convert(replace(convert(salary,CHAR(6)),'0',''),unsigned))) from employees;
