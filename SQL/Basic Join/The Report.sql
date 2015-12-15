@@ -1,0 +1,2 @@
+select a.name ,b.grade, a.Marks from students a join grades b on a.Marks >= Min_Mark and a.Marks <= Max_Mark where b.grade >= 8 order by b.grade desc,a.name,a.Marks;
+select 'NULL' ,b.grade, a.Marks from students a join grades b on a.Marks >= Min_Mark and a.Marks <= Max_Mark where b.grade < 8 order by b.grade desc,a.Marks;
